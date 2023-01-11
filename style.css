@@ -1,0 +1,87 @@
+:root {
+  --background-da-pagina: #eaeaea;
+  --background-da-receita: #ffffff;
+  --titulos-e-subtitulos: #1b1b1b;
+  --footer-e-legenda: #8f8f8f;
+  --outros-textos: #39393a;
+  --font-family: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--background-da-pagina);
+  font-family: var(--font-family);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: var(--background-da-receita);
+  max-width: 900px;
+  border-radius: 15px;
+  margin: 40px 10px;
+  padding: 0px 40px 25px;
+}
+
+figcaption, li{
+  color: var(--outros-textos);
+}
+
+figcaption{
+  text-align: right;
+  padding: 5px 0px;
+}
+
+img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  display: inline-block;
+  object-fit: cover;
+}
+h1,
+h3 {
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 1.75rem;
+  margin-top: 3.75rem;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin-top: 1.875rem;
+  margin-bottom: 1.875rem;
+}
+
+main li,
+p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+li {
+  margin-left: 20px;
+  line-height: 2.25rem;
+}
+
+figcaption,
+footer p {
+  font-size: 0.75rem;
+}
+
+footer{
+  padding-bottom: 20px;
+}
+
